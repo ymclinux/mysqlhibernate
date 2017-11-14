@@ -24,8 +24,8 @@ Nov 13, 2017 10:06:26 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 Nov 13, 2017 10:06:26 PM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
 INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-```
-'''Hibernate: 
+
+Hibernate: 
     alter table Employee 
         drop 
         foreign key FK14tijxqry9ml17nk86sqfp561
@@ -138,4 +138,4 @@ Hibernate:
 num of employess:2
 next employee: Employee [id=2, name=Yogesh chaudhari Age =34, department=java]full name :hibernate
 next employee: Employee [id=3, name=Aditya chaudhari Age =3, department=java]full name :hibernate
-'''
+```
